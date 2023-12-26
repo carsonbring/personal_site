@@ -1,5 +1,6 @@
 <script>
-  
+  import { base } from '$app/paths';
+ 
   let isMenuOpen = false;
 </script>
 <nav class="bg-slate-950 bg-opacity-40">
@@ -31,8 +32,8 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-sm font-medium font-mono" aria-current="page">Home</a>
-              <a href="/blog" class="text-pale hover:bg-emerald-950 hover:text-white rounded-md px-3 py-2 text-sm font-medium font-mono">Blog</a>
+              <a href="{base}/" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-sm font-medium font-mono" aria-current="page">Home</a>
+              <a href="{base}/blog" class="text-pale hover:bg-emerald-950 hover:text-white rounded-md px-3 py-2 text-sm font-medium font-mono">Blog</a>
               <a href="https://github.com/carsonbring" target="_blank" class="text-pale hover:bg-emerald-950 hover:text-white rounded-md px-3 py-2 text-sm font-medium font-mono">Github</a>
               
             </div>
@@ -47,8 +48,8 @@
     <div class="sm:hidden {isMenuOpen ? '' : 'hidden'} " aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a href="/" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
-        <a href="/blog" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Blog</a>
+        <a href="{base}/" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
+        <a href="{base}/blog" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Blog</a>
         <a href="https://github.com/carsonbring" target="_blank" class="text-pale hover:bg-emerald-950 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Github</a>
       </div>
     </div>
