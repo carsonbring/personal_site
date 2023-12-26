@@ -36,7 +36,7 @@
                 <br>
                 
                 <ul class="text-pale list-disc ml-5">
-                    <li>Senior in NDSU's Computer Science program</li>
+                    <li>Denior in NDSU's computer science program</li>
                     <br>
                     <li>Graduating in Fall 2024</li>
                     <br>
