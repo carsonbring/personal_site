@@ -28,23 +28,23 @@
     </div>
     <br>
     <br>
-    <div class="flex flex-col md:flex-row justify-between container mx-auto my-8 p-4">
-        <!-- Left Divstyle="align-self: flex-start" -->
-        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 mb-4 md:mb-0 md:mr-2 w-full md:w-8/12" style="align-self: flex-start">
+    <div class="flex justify-between  ">
+        <!-- Left Div -->
+        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 mr-2 w-8/12 align-self-start" style="align-self: flex-start">
             <div class="bg-slate-950 shadow-lg rounded-lg p-8 ">
                 <h1 class="text-center text-orange-100">About Me</h1>
                 <br>
                 
                 <ul class="text-pale list-disc ml-5">
-                    <li>Denior in NDSU's computer science program</li>
+                    <li>I am a senior in NDSU's computer science program</li>
                     <br>
-                    <li>Graduating in Fall 2024</li>
+                    <li>I will be graduating in Fall 2024</li>
                     <br>
-                    <li>Current treasurer of the NDSU Chapter of the Association for Computing Machinery</li>
+                    <li>I am the current treasurer of the NDSU Chapter of the Association for Computing Machinery</li>
                     <br>
-                    <li>NDSU Engineering Ambassador</li>
+                    <li>I am an NDSU Engineering Ambassador</li>
                     <br>
-                    <li>Worked the last two summers at Be The Match on their Salesforce team</li>
+                    <li>I have worked the last two summers at Be The Match on their Salesforce team</li>
 
                 </ul>
                 <br>
@@ -74,7 +74,7 @@
         </div>
     
         <!-- Right Div -->
-        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 w-full md:w-5/12">
+        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 mr-2 w-5/12 align-self-start" style="align-self: flex-start">
             <div class="bg-slate-950 shadow-lg rounded-lg p-8">
                 <h2 class="text-center text-pale">Some of my paintings</h2>
                 <br>

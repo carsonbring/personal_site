@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    //background-color: #2E1104;
+
+}
+h1 {
+    font-family: "Lucida Console", monospace;
+    color: #F5D0C5;
+    font-size: 25px;
+}
+h3 {
+    font-family: "Lucida Console", monospace;
+    color: #F5D0C5;
+    font-size: 20px;
+}
+h5 {
+    font-family: "Courier New", monospace;
+    color: #F5D0C5;
+    font-size: 16px; 
+}
+.bg-tawny {
+    --tw-bg-opacity: 1;
+    background-color: rgb(204 88 3 / var(--tw-bg-opacity));
+}
+.bg-bistre {
+    --tw-bg-opacity: 1;
+    background-color: rgb(43 33 24 / var(--tw-bg-opacity));
+}
+.bg-licorice {
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 30 22 / var(--tw-bg-opacity)); 
+}
+p {
+    font-family: "Lucida Console", monospace;
+    color: #F5D0C5;
+    font-size: 13px;
+}
+.text-pale {
+    font-family: "Lucida Console", monospace;
+    --tw-bg-opacity: 1;
+    color: rgb(245 208 197 / var(--tw-bg-opacity));
+}
+.bg-pale {
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 208 197 / var(--tw-bg-opacity)); 
+}
+nav {
+    background-color: #3C0000;
+}
+.hover\:bg-tawny:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(204 88 3 / var(--tw-bg-opacity));
+}
+a {
+    font-family: "Lucida Console", monospace;
+    --tw-bg-opacity: 1;
+    color: rgb(245 208 197 / var(--tw-bg-opacity)); 
+}
