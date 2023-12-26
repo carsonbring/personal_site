@@ -74,7 +74,7 @@
         </div>
     
         <!-- Right Div -->
-        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 w-full md:w-5/12">
+        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 w-full md:w-5/12" style="align-self: flex-start">
             <div class="bg-slate-950 shadow-lg rounded-lg p-8">
                 <h2 class="text-center text-pale">Some of my paintings</h2>
                 <br>
