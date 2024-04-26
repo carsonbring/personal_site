@@ -1,3 +1,4 @@
+
 <script context="module" lang="ts">
   import { Navbar, Footer } from '$lib';
   interface BlogPost {
@@ -15,7 +16,7 @@
   let posts: BlogPost[] = [];
 
   onMount (async() => {
-    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/blog`)
+    const response = await fetch('https://site-backend-9ce1fd9af9f0.herokuapp.com/blog')
     posts = await response.json()
     posts.reverse()
     console.log(posts)

@@ -18,7 +18,7 @@
             host my blog, information about myself, and future projects
             that I will host using the same backend I use to host my blog.
             <br> <br>
-            The code that I used to make my backend and front-end are hosted
+            The code for my backend and front-end are hosted
             in their own respective repos on my github. 
 
             </h2>
@@ -30,49 +30,64 @@
     <br>
     <div class="flex flex-col md:flex-row justify-between container mx-auto my-8 p-4">
         <!-- Left Divstyle="align-self: flex-start" -->
-        <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 mb-4 md:mb-0 md:mr-2 w-full md:w-8/12" style="align-self: flex-start">
-            <div class="bg-slate-950 shadow-lg rounded-lg p-8 ">
-                <h1 class="text-center text-orange-100">About Me</h1>
-                <br>
-                
-                <ul class="text-pale list-disc ml-5">
-                    <li>Senior in NDSU's Computer Science program</li>
+        <div class="mb-4 md:mb-0 md:mr-2 w-full md:w-8/12" style="align-self: flex-start">
+            <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90">
+                <div class="bg-slate-950 shadow-lg rounded-lg p-8 ">
+                    <h1 class="text-center text-orange-100">About Me</h1>
                     <br>
-                    <li>Graduating in Fall 2024</li>
-                    <br>
-                    <li>Current treasurer of the NDSU Chapter of the Association for Computing Machinery</li>
-                    <br>
-                    <li>NDSU Engineering Ambassador</li>
-                    <br>
-                    <li>Worked the last two summers at Be The Match on their Salesforce team</li>
+                    
+                    <ul class="text-pale list-disc ml-5">
+                        <li>Senior in NDSU's Computer Science program</li>
+                        <br>
+                        <li>Graduating in Fall 2024</li>
+                        <br>
+                        <li>Former Treasurer of the NDSU Chapter of the Association for Computing Machinery(2022-2024)</li>
+                        <br>
+                        <li>NDSU Engineering Ambassador</li>
+                        <br>
+                        <li>Worked the last two summers at Be The Match on their Salesforce team</li>
 
-                </ul>
-                <br>
-                <hr>
-                <br>
+                    </ul>
+                    <br>
+                    <hr>
+                    <br>
 
-                <h1 class="text-center text-orange-100">My Interests</h1>
-                <br>
-                
-                <ul class="text-pale list-disc ml-5">
-                    <li>Painting</li>
+                    <h1 class="text-center text-orange-100">My Interests</h1>
                     <br>
-                    <li>Lifting</li>
-                    <br>
-                    <li>Messing around with linux and my home server</li>
-                    <br>
-                    <li>Playing the occasional video game</li>
-                    <br>
-                    <li>Investing in the Stock Market</li>
-                    <br>
-                    <li>Anime</li>
+                    
+                    <ul class="text-pale list-disc ml-5">
+                        <li>Painting</li>
+                        <br>
+                        <li>Lifting</li>
+                        <br>
+                        <li>Messing around with linux and my home server</li>
+                        <br>
+                        <li>Playing the occasional video game</li>
+                        <br>
+                        <li>Investing in the Stock Market</li>
+                        <br>
+                        <li>Anime</li>
 
-                </ul> 
-                <br>
-                <h2 class="text-pale"><i>I am usually in the ACM room so come talk to me!</i> </h2>
+                    </ul> 
+                    <br>
+                    <h2 class="text-pale"><i>I am usually in the ACM room so come talk to me!</i> </h2>
+                </div>
+            </div>
+            <br>
+            
+            <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90">
+                <div class="bg-slate-950 shadow-lg rounded-lg p-8 ">
+                    <h1 class="text-center text-orange-100">Some of my drawings</h1>
+                    <br>
+                    <img src="https://i.imgur.com/BoJ9GGg.jpg"  alt="bird"/>
+                    <br>
+                    <img src="https://i.imgur.com/x1NsdRZ.jpg"  alt="eye"/>
+                    <br>
+                    <img src="https://i.imgur.com/exjj2Hl.jpg"  alt="evangelion"/>
+
+                </div>
             </div>
         </div>
-    
         <!-- Right Div -->
         <div class="bg-pale shadow-lg rounded-lg p-2 opacity-90 w-full md:w-5/12" style="align-self: flex-start">
             <div class="bg-slate-950 shadow-lg rounded-lg p-8">
@@ -87,7 +102,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
 
 
