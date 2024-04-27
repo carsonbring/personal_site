@@ -14,9 +14,7 @@
       const key = $secretKey;
       const postTitle = $title;
       const postContent = $content;
-      const backendUrl = 'https://site-backend-9ce1fd9af9f0.herokuapp.com/blog';
-      console.log(currentDate);
-      console.log(currentTime); 
+      const backendUrl = `${import.meta.env.VITE_BACKEND_URL}/blog`;
       try {
         const response = await fetch(backendUrl, {
           method: 'POST',

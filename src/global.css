@@ -58,3 +58,6 @@ a {
     --tw-bg-opacity: 1;
     color: rgb(245 208 197 / var(--tw-bg-opacity)); 
 }
+.post-content {
+    white-space: pre-wrap;
+}
