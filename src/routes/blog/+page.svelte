@@ -46,9 +46,9 @@
             <div class="bg-slate-950 shadow-lg rounded-lg p-8"> 
               <h3 class="text-2xl font-bold mb-2">{post.title}</h3>
               <h5 class="text-xl font-bold">Date : {post.date} </h5>
-              <h5 class="text-xl font-bold">Date : {post.time} </h5>
+              <h5 class="text-xl font-bold">Time : {post.time} </h5>
               <br>
-              <p class="post-content">{post.content}</p>
+              <p class="post-content text-base">{post.content}</p>
             </div>
           </div>
         {/each}
