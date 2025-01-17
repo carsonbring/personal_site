@@ -54,7 +54,10 @@ nav {
     background-color: rgb(204 88 3 / var(--tw-bg-opacity));
 }
 a {
+    @apply text-pale hover:bg-emerald-950 hover:text-white px-3 py-2 text-sm font-medium font-mono border border-orange-100;
     font-family: "Lucida Console", monospace;
     --tw-bg-opacity: 1;
     color: rgb(245 208 197 / var(--tw-bg-opacity)); 
+
 }
+
